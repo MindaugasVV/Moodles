@@ -1,0 +1,39 @@
+.hidden {display:none;}
+
+input, select {
+  font-size:1em;
+  padding:0.15em
+}
+.form_entry input[type="text"], input[type="email"], input[type="date"], input[type="time"], .form_entry input[type="password"], .form_entry select {
+  min-width:15em;
+  padding:0.15em}
+.form_entry input.race_text, .form_entry input.small, .form_entry select.small {
+  min-width:3em;
+  width: auto;
+}
+
+div.form_entry {margin-bottom:1em;}
+div.form_entry * {vertical-align:top;}
+
+.form_h {display:inline-block;zoom:1;*display:inline;width:5em;text-align:right;margin-right:1em;font-weight:bold;color:#5b6065;vertical-align:top;}
+.form_b {display:inline-block;zoom:1;*display:inline;vertical-align:top;margin-left:1em;}
+
+.msel-wrapper select {
+  width: 100%;
+  min-width: 220px;
+  max-height:140px;
+}
+
+.msel-search {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.msel-button-promote, .msel-button-demote {
+  border-radius: 0.5ex 0.5ex 0.5ex 0.5ex;
+  border-width: 1px;
+  font-family: sans-serif;
+  font-size: 10pt;
+  margin: 1ex;
+  padding: 0.5ex 0;
+}
